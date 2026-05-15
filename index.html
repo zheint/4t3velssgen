@@ -84,7 +84,7 @@ function convert(){
     window.allConfigs = "";
 
     domains.forEach(domain => {
-        let newLink = `vless://${uuid}@${domain}:443?type=ws&encryption=none&path=${path}&host=apiariel13.joys.software&security=tls&sni=apiariel13.joys.software#${name}`;
+        let newLink = `vless://${uuid}@${domain}:443?type=ws&encryption=none&path=${path}&host=ping23.joybb.me&security=tls&sni=ping23.joybb.me#${name}`;
         outputHTML += `<div class="result">${newLink}</div>`;
         window.allConfigs += newLink + "\r\n";
     });
